@@ -1,0 +1,16 @@
+This is a very poorly written Hitfaker for Browsergames or Votingsystems.
+You can use it with a proxy list. The proxy list should have this format:
+127.0.0.1:80
+128.0.0.1:8080
+and so on...
+
+How to use it?
+1. Download the hitfaker.jar file and a proxy list (here is a nice blog for proxy lists: http://fresh-proxylists.blogspot.de/)
+2. Open the terminal and type in: 
+	java -jar hitfaker.jar http://THEURL.COM proxies.txt 20 
+ 
+ 	1. Parameter: URL you want to hit
+ 	2. Parameter: The proxy list
+ 	3. Parameter: Threads (Parallel Connections) 
+
+I know it's not the best program but it will do the trick for normal hitfakes with GET
